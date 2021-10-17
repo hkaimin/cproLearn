@@ -1,0 +1,23 @@
+#cmake 最低版本的需求
+cmake_minimum_required(VERSION 3.22)
+
+#工程名称
+project(cmake_cpplearn_oop)
+
+#引入头文件
+include_directories(include)
+
+#源文件
+aux_source_directory(. SRC_LIST)
+aux_source_directory(./src SRC_LIST)
+
+set(c_path ${SRC_LIST})
+
+add_executable(cmake_cpplearn_oop ${c_path})
+
+
+
+
+
+
+

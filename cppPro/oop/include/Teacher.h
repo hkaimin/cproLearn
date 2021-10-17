@@ -11,7 +11,7 @@ class Teacher
         int getAge();
 
     private:
-        string name;
-        int age;
+        string nameT;
+        int ageT;
         int salary;
 };

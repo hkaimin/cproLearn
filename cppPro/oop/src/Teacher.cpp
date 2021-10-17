@@ -1,13 +1,17 @@
+#include<iostream>
 #include "../include/Teacher.h"
+using namespace std;
 
 Teacher::Teacher(string name,int age)
 {
-    name = name;
-    age = age;
+    cout << "construct init " << name << ":" << age << endl;
+    nameT = name;
+    ageT = age;
 }
 
 Teacher::~Teacher()
 {
+    cout << "construct ~Teacher " << endl;
 }
 
 void Teacher::setSalary(int salary)
@@ -22,12 +26,12 @@ int Teacher::getSalary()
 
 string Teacher::getName()
 {
-    return name;
+    return nameT;
 }
 
 int Teacher::getAge()
 {
-    return age;
+    return ageT;
 }
 
 

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmake_cpplearn_oop.dir/oopmain.cpp.o CMakeFiles/cmake_cpplearn_oop.dir/src/Teacher.cpp.o -o cmake_cpplearn_oop 
